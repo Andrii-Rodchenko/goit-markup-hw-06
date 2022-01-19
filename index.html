@@ -407,35 +407,38 @@
           <div class="field-position">
             <p class="modal-form-text">Оставьте свои данные, мы вам перезвоним</p>
 
-            <label for="name" class="label-name-modal">Имя </label>
+            
             <div class="form-feild">
-              <input type="text" name="name-field-modal" id="name" class="modal-name" />
+              <label for="name" class="label-modal">Имя </label>
+              <input type="text" name="name-field-modal" id="name" class="modal-input" />
               <svg class="icon-black" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
 
-            <label for="modal-pfone" class="label-phone-modal">Телефон</label>
             <div class="form-feild">
+            <label for="modal-pfone" class="label-modal">Телефон</label>
               <input
                 type="tel"
                 name="pfone-field-modal"
                 id="modal-pfone"
-                class="modal-pfone"
+                class="modal-input"
                 autocomplete="off"
               />
               <svg class="icon-black" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
-            <label for="modal-email" class="label-email-modal">Почта</label>
+            
             <div class="form-feild">
-              <input type="email" name="email-field-modal" id="modal-email" class="modal-email" />
+              <label for="modal-email" class="label-modal">Почта</label>
+              <input type="email" name="email-field-modal" id="modal-email" class="modal-input" />
               <svg class="icon-black" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
-            <label for="form-comment" class="label-comment-modal">Коментарий</label>
+            <div class="comment-feild">
+            <label for="form-comment" class="label-modal">Коментарий</label>
             <textarea
               name="comment-field-modal"
               id="form-comment"
@@ -443,6 +446,7 @@
               class="form-comment"
               placeholder="Введите текст"
             ></textarea>
+            </div>
           </div>
           <div class="agreement-field">
             <label for="checkbox-label" class="checkbox-label">
@@ -460,7 +464,9 @@
               <a class="checkbox-link" href=""> Условия договора </a></label
             >
           </div>
-          <button type="submit" class="form-button-modal">Отправить</button>
+          <div class="position-form-button" >
+          <button type="submit" class="form-button-modal">Отправить</button> 
+        </div>
         </form>
       </div>
     </div>
