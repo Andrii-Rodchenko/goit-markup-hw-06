@@ -850,9 +850,9 @@ a {
   max-height: 581px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-duration-timing-function),
-    visibility var(--transition-duration-timing-function);
+  visibility var(--transition-duration-timing-function);
   background-color: #ffffff;
-  padding: 50px 40px 30px 40px;
+  padding: 40px;
   visibility: visible;
 }
 
@@ -895,11 +895,13 @@ a {
 }
 
 .field-position label {
+  display: block;
   font-weight: normal;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #757575;
+
 }
 
 .form-feild {
